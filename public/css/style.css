@@ -1,23 +1,59 @@
 body {
     background-color: lightgrey;
+
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 45px;
+}
+h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,150%);
 }
 
 .btn {
     width: 100px;
     height: 100px;
     font-size: xx-large;
-    background-color: blueviolet;
-    
+    background-color: grey;
+    margin: 3px;
     
 }
 
 .btntake2 {
     width: 200px;
+    
+
 
 }
 
 input[type="text"] {
-    width: 400px;
+    width: 425px;
     height: 100px;
-    font-size: xx-large;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(63, 124, 63);
+    
+    
+    
+}
+.rectangle {
+    height: 12px;
+    width: 9000px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cs {
+    background-color: rgb(202, 4, 4);
+}
+.sb {
+    background-color: black;
+}
+.eb {
+    background-color: orange;
 }
